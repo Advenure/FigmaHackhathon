@@ -5,8 +5,7 @@ import React from "react";
 import { useState } from "react";
 
 
-import { FaCartArrowDown } from "react-icons/fa";
-import { FaRegCircleUser } from "react-icons/fa6";
+
 
 
 export default function Navbartwo() {
@@ -35,9 +34,7 @@ export default function Navbartwo() {
             <li className="block px-2  py-2 text-sm hover:underline">Blogs</li> 
             </Link>
             <div className="flex gap-4 justify-center items-center">
-            <FaCartArrowDown />
-            <FaRegCircleUser />
-            
+       
 
             </div>
            
