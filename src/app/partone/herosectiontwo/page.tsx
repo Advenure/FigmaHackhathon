@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function HeroSection2(){
     return (
         <div className="">
@@ -12,7 +13,8 @@ export default function HeroSection2(){
         </div>
 
         <div className="lg:h-[480px] flex items-center">
-          <img src="\Image.png" className="w-full h-full object-cover" alt="Dining Experience" />
+        <Image className="w-full h-full object-cover" src={"/Image.png"} width={720} height={603} alt="logo" ></Image>
+         
         </div>
     
         

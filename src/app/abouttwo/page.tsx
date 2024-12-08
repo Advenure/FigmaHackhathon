@@ -1,6 +1,7 @@
 
         import Blogstwo from "../allBlags/blogstwo/page";
-        import Signup from "../singup/page";
+      
+        import Image from "next/image";
         
         export default function Abouttwo(){
           return(
@@ -17,17 +18,18 @@
                 </div>
         
                 <div className="lg:h-[480px] flex items-center">
-                  <img src="\Image Block.png" className="w-full h-full object-cover" alt="Dining Experience" />
+                <Image className="w-full h-full object-cover" src={"/Image Block.png"} width={720} height={603} alt="logo" ></Image>
+                 
                 </div>
             
                 
                 </div>
-               
+                
               </div>
               <div className="">
               <div className="grid lg:grid-cols-2 items-center lg:gap-y-6 mb-2">
               <div className="lg:h-[480px] flex items-center">
-                  <img src="\Image (3).png" className="w-full h-full object-cover" alt="Dining Experience" />
+              <Image className="w-full h-full object-cover" src={"/Image (3).png"} width={720} height={603} alt="logo" ></Image>
                 </div>
                 <div className="max-lg:order-1 max-lg:text-center sm:p-12 p-4">
                   <h2 className="text-gray-600 lg:text-5xl text-xl ">From a studio in London to a global brand with

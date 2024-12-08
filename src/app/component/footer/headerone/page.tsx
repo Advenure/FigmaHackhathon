@@ -1,3 +1,4 @@
+import Link from "next/link"
 import React from "react"
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -10,15 +11,15 @@ export default function Footer(){
           <div>
             <h4 className="text-white text-lg mb-6">Use Cases</h4>
             <ul className="space-y-4">
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Web designers</a>
-              </li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Marketers</a>
-              </li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Small
-                business</a></li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Themes</a></li>
-              <li className="text-[15px]"><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Website
-                builter</a>
+             <li  className="text-gray-300 hover:text-white text-[15px]"> Web designers   </li>
+              <li className="text-gray-300 hover:text-white text-[15px]"> Marketers  </li>
+              <li className="text-gray-300 hover:text-white text-[15px]" >Marketers  </li>
+             
+             
+              <li > business</li>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Themes</Link></li>
+              <li className="text-[15px]"><Link href=")" className="text-gray-300 hover:text-white text-[15px]">Website
+                builter</Link>
               </li>
             </ul>
   
@@ -27,22 +28,22 @@ export default function Footer(){
           <div>
             <h4 className="text-white text-lg mb-6">Product</h4>
             <ul className="space-y-4">
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Landing page</a>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Landing page</Link>
               </li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Popup builder</a>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Popup builder</Link>
               </li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Web design</a>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Web design</Link>
               </li>
-              <li className="text-[15px]"><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Content</a></li>
+              <li className="text-[15px]"><Link href="" className="text-gray-300 hover:text-white text-[15px]">Content</Link></li>
             </ul>
           </div>
   
           <div>
             <h4 className="text-white text-lg mb-6">Resources</h4>
             <ul className="space-y-4">
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Academy</a></li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Blog</a></li>
-              <li><a href="javascript:void(0)" className="text-gray-300 hover:text-white text-[15px]">Developer</a>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Academy</Link></li>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Blog</Link></li>
+              <li><Link href="" className="text-gray-300 hover:text-white text-[15px]">Developer</Link>
               </li>
               </ul>
             

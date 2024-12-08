@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function BlogsHome(){
     return(
         <div className=" bg-gray-100">
@@ -12,8 +13,8 @@ export default function BlogsHome(){
             </div>
 
             <div className="w-5/6 h-[210px] overflow-hidden mx-auto aspect-w-16 aspect-h-8 md:mb-2 mb-4">
-              <img src="\Photo.png" alt="Product 1"
-                className="h-full w-full object-contain" />
+            <Image className="w-full h-full object-contain" src={"/Photo.png"} width={720} height={603} alt="logo" ></Image>
+
             </div>
 
             <div>
@@ -30,8 +31,8 @@ export default function BlogsHome(){
             </div>
 
             <div className="w-5/6 h-[210px] overflow-hidden mx-auto aspect-w-16 aspect-h-8 md:mb-2 mb-4">
-              <img src="\Parent.png" alt="Product 2"
-                className="h-full w-full object-contain" />
+            <Image className="w-full h-full object-contain" src={"/Parent.png"} width={720} height={603} alt="logo" ></Image>
+             
             </div>
 
             <div>
@@ -48,8 +49,8 @@ export default function BlogsHome(){
             </div>
 
             <div className="w-5/6 h-[210px] overflow-hidden mx-auto aspect-w-16 aspect-h-8 md:mb-2 mb-4">
-              <img src="\Parent (1).png" alt="Product 3"
-                className="h-full w-full object-contain" />
+            <Image className="w-full h-full object-contain" src={"/Parent (1).png"} width={720} height={603} alt="logo" ></Image>
+             
             </div>
 
             <div>
@@ -66,8 +67,8 @@ export default function BlogsHome(){
             </div>
 
             <div className="w-5/6 h-[210px] overflow-hidden mx-auto aspect-w-16 aspect-h-8 md:mb-2 mb-4">
-              <img src="\Parent (2).png" alt="Product 3"
-                className="h-full w-full object-contain" />
+            <Image className="w-full h-full object-contain" src={"/Parent (2).png"} width={720} height={603} alt="logo" ></Image>
+             
             </div>
 
             <div>

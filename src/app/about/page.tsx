@@ -1,6 +1,7 @@
 import Abouttwo from "../abouttwo/page";
 import Blogstwo from "../allBlags/blogstwo/page";
 import MyBlogs from "../allBlags/myblogs/page";
+import Image from "next/image";
 
 export default function About(){
   return(
@@ -17,7 +18,9 @@ export default function About(){
         </div>
 
         <div className="lg:h-[480px] flex items-center">
-          <img src="\Image.png" className="w-full h-full object-cover" alt="Dining Experience" />
+        
+       
+        <Image className="w-full h-full object-cover" src={"/Image.png"} width={720} height={603} alt="logo" ></Image>
         </div>
     
         
@@ -27,7 +30,7 @@ export default function About(){
       <div className="">
       <div className="grid lg:grid-cols-2 items-center lg:gap-y-6 mb-2">
       <div className="lg:h-[480px] flex items-center">
-          <img src="\Image (1).png" className="w-full h-full object-cover" alt="Dining Experience" />
+      <Image className="w-full h-full object-cover" src={"/Image (1).png"} width={720} height={603} alt="logo" ></Image>
         </div>
         <div className="max-lg:order-1 max-lg:text-center sm:p-12 p-4">
           <h2 className="text-gray-800 lg:text-5xl text-xl ">From a studio in London to a global brand with

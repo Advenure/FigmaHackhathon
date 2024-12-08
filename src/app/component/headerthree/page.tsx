@@ -1,17 +1,7 @@
 import Link from "next/link"
 export default function Navbar3(){
     return(
-        // <div className="w-full h-[50px] items-center justify-center ">
-        //     <ul className="flex gap-4  justify-center ">
-        //        <Link> <li>All products</li></Link>
-        //         <li>Plant pots</li>
-        //         <li>Tables</li>
-        //         <li>Chairs</li>
-        //         <li>Crockery</li>
-        //         <li>Tableware</li>
-        //         <li>Cutlery</li>
-        //        </ul>
-        // </div>
+       
         <div className='hidden md:flex flex-wrap items-center gap-5 w-full justify-center h-[50px] bg-slate-100'>
        
           

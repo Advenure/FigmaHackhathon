@@ -1,7 +1,9 @@
 "use client"
-import { useState } from "react";
 import Link from "next/link";
 import React from "react";
+
+import { useState } from "react";
+
 import { IoMdMenu } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
 import { FaCartArrowDown } from "react-icons/fa";
@@ -34,7 +36,7 @@ export default function Navbartwo() {
             <li className="block px-2  py-2 text-sm hover:underline">Blogs</li> 
             </Link>
             <div className="flex gap-4 justify-center items-center">
-            <IoIosSearch />
+            <IoIosSearch /> 
             <FaCartArrowDown />
             <FaRegCircleUser />
             
@@ -57,7 +59,7 @@ export default function Navbartwo() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+     
       {isOpen && (
         <div className="md:hidden bg-gray-300">
           <Link href="/"> <h1 className="font-bold px-4 underline ">Home</h1></Link>
