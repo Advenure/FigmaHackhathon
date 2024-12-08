@@ -4,8 +4,7 @@ import React from "react";
 
 import { useState } from "react";
 
-import { IoMdMenu } from "react-icons/io";
-import { IoIosSearch } from "react-icons/io";
+
 import { FaCartArrowDown } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
 
@@ -36,7 +35,6 @@ export default function Navbartwo() {
             <li className="block px-2  py-2 text-sm hover:underline">Blogs</li> 
             </Link>
             <div className="flex gap-4 justify-center items-center">
-            <IoIosSearch /> 
             <FaCartArrowDown />
             <FaRegCircleUser />
             
@@ -48,12 +46,10 @@ export default function Navbartwo() {
           {/* Mobile Menu Button */}
           <div className="flex gap-2 items-center md:hidden">
           <Link href="" className="text-2xl">
-          <IoIosSearch />
             </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className=" focus:outline-none 5xl:" >
-              <IoMdMenu />
             </button>
           </div>
         </div>

@@ -1,9 +1,7 @@
 import Link from "next/link"
 import React from "react"
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
 export default function Footer(){
     return(
         <footer className="bg-[#2A254B] py-12 px-10 ">
@@ -73,10 +71,8 @@ export default function Footer(){
   
         <p className='text-[15px] mt-6'>© ReadymadeUI. All rights reserved.</p>
         <div className=" flex gap-5 text-2xl mt-5">
-        <FaFacebook />
-        <FaInstagram />
+   
         <FaXTwitter />
-        <FaLinkedin />
         </div>
         </div>
 
